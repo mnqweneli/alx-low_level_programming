@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the size of various types based on the computer it is compiled and run on
- * Return: Always 0.
+ * main - prints the size of various types based on the computer
+ * Return: Always 0 (Success)
  *
  */
 
