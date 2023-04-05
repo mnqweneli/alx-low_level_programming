@@ -1,22 +1,24 @@
 #include "main.h"
 
 /**
- * Author: Mnqweneli Qabo
- * _puts_recursion(char *s) - fuction
+ * _puts_recursion - function just like puts();
  *
- * @s: the input char
+ * @c: the input char
  * Return: Always 0.
  */
 
-void _puts_recursion(char *s)
+void _puts_recursion(char *c)
 {
-	if (*s)
+	char s;
+
+
+	if (c)
 	{
-		_putchar(*s);
-		_puts_recusion(s + 1);
+		_putchar(*c);
+		_puts_recusion(c + 1);
 	}
 	else
 	{
-		_putchar(\n);
+		_putchar("\n");
 	}
 }
