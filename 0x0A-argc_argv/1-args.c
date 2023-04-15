@@ -18,9 +18,12 @@ int main(int argc, char *argv[])
 	{
 
 
-		if (argv[0] != NULL)
+		if (argv[i] != NULL)
 		{
+			argv[i] = 0;
+
 			printf("%d\n", argc);
+			argv[i]++;
 		}
 	}
 
